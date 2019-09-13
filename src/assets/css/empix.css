@@ -1,0 +1,57 @@
+/* Root - Root - Root - Root - Root - Root - Root - Root - Root - Root - Root - Root - Root - Root  */
+:root {
+  --aurem-navbar-font: #0017a0;
+}
+/* Font-face - Font-face - Font-face - Font-face - Font-face - Font-face - Font-face - Font-face -  */
+@font-face {
+  font-family: 'bodoni';
+  src: url("../fonts/bodoni/BodoniXT.ttf");
+}
+/* Background Colors - Background Colors - Background Colors - Background Colors - Background Colors*/
+.bg-gradient {
+  background-image: linear-gradient(180deg,
+                      rgba(0,23,160,1) 37%,
+                      rgba(255,255,255,0) 100%) !important;
+  box-shadow: none !important;
+}
+.bg-gradient-footer {
+  background-image: linear-gradient(0deg,
+                      rgba(0,23,160,1) 37%,
+                      rgba(255,255,255,0) 100%) !important;
+  box-shadow: none !important;
+}
+.bg-navbar-solid {
+  background-color: rgba(0,23,160,1) ;
+}
+/* NavBar */
+.navbar-logo-text {
+  font-family: 'bodoni';
+  font-size: 3em;
+}
+.footer.white-text {
+  color: #fff;
+}
+.footer-logo-text {
+  font-family: 'bodoni';
+  font-size: 1.6em;
+}
+/* Misc - Misc - Misc - Misc - Misc - Misc - Misc - Misc - Misc - Misc - Misc - Misc - Misc - Misc */
+.logo-text {
+  font-family: 'bodoni';
+  color: rgba(0,70,160,1);
+  font-size: 2em;
+}
+.benefits-header {
+  font-size: 2em;
+}
+/* Footer/Navbar */
+.footer {
+  font-size: 1.1em;
+}
+.footer a {
+  color: #fff;
+}
+.footer a:hover {
+  color: rgb(191, 176, 255);
+  font-style: italic;
+}
